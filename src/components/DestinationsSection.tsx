@@ -10,7 +10,7 @@ const destinations = [
     name: 'Santorini',
     country: 'Greece',
     rating: 4.9,
-    price: '$1,299',
+    price: '₹1,08,000',
     description: 'Iconic white-washed buildings and stunning sunsets over the Aegean Sea.',
   },
   {
@@ -18,7 +18,7 @@ const destinations = [
     name: 'Bali',
     country: 'Indonesia',
     rating: 4.8,
-    price: '$899',
+    price: '₹75,000',
     description: 'Tropical paradise with lush rice terraces, temples, and beautiful beaches.',
   },
   {
@@ -26,7 +26,7 @@ const destinations = [
     name: 'Paris',
     country: 'France',
     rating: 4.7,
-    price: '$1,499',
+    price: '₹1,25,000',
     description: 'The City of Light offers world-class art, cuisine, and romantic atmosphere.',
   },
   {
@@ -34,7 +34,7 @@ const destinations = [
     name: 'Tokyo',
     country: 'Japan',
     rating: 4.9,
-    price: '$1,699',
+    price: '₹1,42,000',
     description: 'A vibrant blend of ultra-modern technology and traditional culture.',
   },
 ];

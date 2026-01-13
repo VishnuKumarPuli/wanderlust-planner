@@ -121,10 +121,10 @@ const TripPlannerForm = () => {
                       <SelectValue placeholder="Select your budget" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="budget">Budget ($0 - $1,000)</SelectItem>
-                      <SelectItem value="moderate">Moderate ($1,000 - $3,000)</SelectItem>
-                      <SelectItem value="comfort">Comfort ($3,000 - $5,000)</SelectItem>
-                      <SelectItem value="luxury">Luxury ($5,000+)</SelectItem>
+                      <SelectItem value="budget">Budget (₹0 - ₹50,000)</SelectItem>
+                      <SelectItem value="moderate">Moderate (₹50,000 - ₹1,50,000)</SelectItem>
+                      <SelectItem value="comfort">Comfort (₹1,50,000 - ₹3,00,000)</SelectItem>
+                      <SelectItem value="luxury">Luxury (₹3,00,000+)</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
