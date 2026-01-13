@@ -85,7 +85,7 @@ const BudgetCalculator = () => {
                       </Label>
                       <div className="relative mt-1">
                         <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground">
-                          $
+                          ₹
                         </span>
                         <Input
                           id={item.id}
@@ -116,7 +116,7 @@ const BudgetCalculator = () => {
               <div className="bg-secondary/50 rounded-xl p-6 mb-6 text-center">
                 <p className="text-muted-foreground text-sm mb-1">Total Estimated Budget</p>
                 <p className="font-display text-4xl md:text-5xl font-bold text-primary">
-                  ${total.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                  ₹{total.toLocaleString('en-IN', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}
                 </p>
               </div>
 
@@ -127,7 +127,7 @@ const BudgetCalculator = () => {
                     <div className="flex items-center justify-between text-sm">
                       <span className="text-muted-foreground">{item.label}</span>
                       <span className="font-medium text-foreground">
-                        ${item.value.toLocaleString('en-US', { minimumFractionDigits: 2 })} ({item.percentage.toFixed(0)}%)
+                        ₹{item.value.toLocaleString('en-IN', { minimumFractionDigits: 0 })} ({item.percentage.toFixed(0)}%)
                       </span>
                     </div>
                     <div className="h-2 bg-secondary rounded-full overflow-hidden">
